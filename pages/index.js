@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Comparador } from '../src/components/comparador'
+import { Navbar } from '../src/components/navbar'
 import { Report } from '../src/components/report'
 
 export default function Home() {
@@ -9,10 +10,11 @@ export default function Home() {
         <title>Berba Tools</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Navbar />
       <main>
+          
           <Comparador />
-          <Report />
+          {/* <Report /> */}
       </main>
 
       <footer>
