@@ -112,9 +112,9 @@ export function Comparador(){
             input[type=number] {
               -moz-appearance: textfield;
             }
-            @media (min-width: 300px){
+            @media (max-width: 575px){
                 .comparador {
-                    min-width:90vw;
+                    width:90vw;
                 }
                 .gridDesign {
                     display:grid;
