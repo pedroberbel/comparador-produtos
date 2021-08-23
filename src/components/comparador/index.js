@@ -1,4 +1,3 @@
-import { Product } from "../product";
 import React from 'react';
 
 export function Comparador(){
