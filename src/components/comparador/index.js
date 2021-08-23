@@ -53,7 +53,7 @@ export function Comparador(){
         }
     })
     return (
-        <div style={{display:'block', flex:1, alignItems:'center', justifyContent:'center', maxWidth:'1660px', border:'1px solid white', boxShadow:'0 5px 20px rgba(19, 255, 58, 0.25)', borderColor:'#2c3e40', borderRadius:'8px', margin:'15px', padding:'5px'}}>
+        <div style={{display:'block', flex:1, alignItems:'center', justifyContent:'center',maxHeight:'50vh', maxWidth:'1660px', border:'0px solid white', boxShadow:'0 5px 20px rgba(0, 0, 58, 0.25)', borderColor:'#2c3e40', borderRadius:'8px', margin:'15px', padding:'5px'}}>
 
             <div className="gridDesign">
             {/* style={{display:'grid', gridTemplateColumns:'1fr 1fr'}} */}
@@ -71,7 +71,7 @@ export function Comparador(){
                         }}/>
                         </div>
                     </div>
-                    <div style={{display:'block', flex:1, alignItems:'center', justifyContent:'center', minHeight:'30px', maxWidth:'660px', border:'1px solid white', boxShadow:'0 5px 20px rgba(253, 19, 58, 0.25)', borderColor:'#2c3e40', borderBottomLeftRadius:'8px', borderBottomRightRadius:'8px', margin:'15px',marginTop:'0', padding:'5px'}}>
+                    <div style={{display:'block', flex:1, alignItems:'center', justifyContent:'center', minHeight:'30px', maxWidth:'660px', border:'1px solid white', boxShadow:'0 5px 20px rgba(255, 255, 255, 0.25)', borderColor:'#2c3e40', borderBottomLeftRadius:'8px', borderBottomRightRadius:'8px', margin:'15px',marginTop:'0', padding:'5px'}}>
                         {/* <h2>{milP1}</h2> */}
                         <h6 style={{textAlign:'center', color:`${resultColorP1}`}}>{resultP1}</h6>
                     </div>
@@ -92,7 +92,7 @@ export function Comparador(){
                         }}/>
                         </div>
                     </div>
-                    <div style={{display:'block', flex:1, alignItems:'center', justifyContent:'center', minHeight:'30px', maxWidth:'660px', border:'1px solid white', boxShadow:'0 5px 20px rgba(253, 19, 58, 0.25)', borderColor:'#2c3e40', borderBottomLeftRadius:'8px', borderBottomRightRadius:'8px', margin:'15px',marginTop:'0', padding:'5px'}}>
+                    <div style={{display:'block', flex:1, alignItems:'center', justifyContent:'center', minHeight:'30px', maxWidth:'660px', border:'1px solid white', boxShadow:'0 5px 20px rgba(255, 255, 255, 0.25)', borderColor:'#2c3e40', borderBottomLeftRadius:'8px', borderBottomRightRadius:'8px', margin:'15px',marginTop:'0', padding:'5px'}}>
                         {/* <h6>{milP2}</h6> */}
                     <h6 style={{textAlign:'center', color:`${resultColorP2}`}}>{resultP2}</h6>
                     </div>
