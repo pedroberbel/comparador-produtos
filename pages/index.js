@@ -5,14 +5,14 @@ import { Report } from '../src/components/report'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div style={{backgroundImage: ''}}>
+          <div className="container">
       <Head>
         <title>Berba Tools</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
       <main>
-          
           <Comparador />
           {/* <Report /> */}
       </main>
@@ -173,6 +173,7 @@ export default function Home() {
           box-sizing: border-box;
         }
       `}</style>
+    </div>
     </div>
   )
 }
