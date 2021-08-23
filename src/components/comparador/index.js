@@ -53,7 +53,7 @@ export function Comparador(){
         }
     })
     return (
-        <div style={{display:'block', flex:1, alignItems:'center', justifyContent:'center',maxHeight:'50vh', maxWidth:'1660px', border:'0px solid white', boxShadow:'0 5px 20px rgba(0, 0, 58, 0.25)', borderColor:'#2c3e40', borderRadius:'8px', margin:'15px', padding:'5px', backgroundColor:'#fff'}}>
+        <div className="comparador" style={{display:'block', flex:1, alignItems:'center', justifyContent:'center',maxHeight:'50vh', maxWidth:'1660px', border:'0px solid white', boxShadow:'0 5px 20px rgba(0, 0, 58, 0.25)', borderColor:'#2c3e40', borderRadius:'8px', margin:'15px', padding:'5px', backgroundColor:'#fff'}}>
 
             <div className="gridDesign">
             {/* style={{display:'grid', gridTemplateColumns:'1fr 1fr'}} */}
@@ -113,12 +113,18 @@ export function Comparador(){
               -moz-appearance: textfield;
             }
             @media (min-width: 300px){
+                .comparador {
+                    min-width:90vw;
+                }
                 .gridDesign {
                     display:grid;
                     grid-template-columns:1fr;
                 }
             }
             @media (min-width: 576px) { 
+                .comparador {
+                    max-width:50vw;
+                }
                 .gridDesign {
                     display:grid;
                     grid-template-columns:1fr 1fr;
