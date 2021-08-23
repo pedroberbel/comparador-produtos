@@ -6,7 +6,7 @@ import { Report } from '../src/components/report'
 export default function Home() {
   return (
     <div style={{backgroundImage: 'linear-gradient( #f3e7e9 0%, #e3eeff 100%)'}}>
-      <div className="container" style={{position:'inherit'}}>
+      <div className="container tela" style={{position:'inherit'}}>
       <Head>
         <title>Comparador de Valores</title>
         <link rel="icon" href="/favicon.ico" />
@@ -154,6 +154,9 @@ export default function Home() {
         }
 
         @media (max-width: 600px) {
+          .tela{
+            padding-bottom:60px;
+          }
           .grid {
             width: 100%;
             flex-direction: column;
