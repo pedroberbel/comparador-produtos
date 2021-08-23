@@ -8,9 +8,6 @@ export function Navbar(){
         <nav className="navbar navbar-expand-lg navbar-light .bg-transparent">
         <div className="container-fluid">
             <a className="navbar-brand" href="/" style={{color:'black'}}>Comparador</a>
-         
-        
-         
         </div>
       </nav>
 
