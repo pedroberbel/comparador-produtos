@@ -5,10 +5,10 @@ import { Report } from '../src/components/report'
 
 export default function Home() {
   return (
-    <div style={{backgroundImage: ''}}>
-          <div className="container">
+    <div style={{backgroundImage: 'linear-gradient( #f3e7e9 0%, #e3eeff 100%)'}}>
+      <div className="container" style={{position:'inherit'}}>
       <Head>
-        <title>Berba Tools</title>
+        <title>Comparador de Valores</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
@@ -40,6 +40,7 @@ export default function Home() {
         }
 
         main {
+          min-height:90%;
           padding: 5rem 0;
           flex: 1;
           display: flex;
@@ -50,7 +51,7 @@ export default function Home() {
 
         footer {
           width: 100%;
-          height: 100px;
+          height: 50px;
           border-top: 1px solid #eaeaea;
           display: flex;
           justify-content: center;

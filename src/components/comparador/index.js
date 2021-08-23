@@ -53,7 +53,7 @@ export function Comparador(){
         }
     })
     return (
-        <div style={{display:'block', flex:1, alignItems:'center', justifyContent:'center',maxHeight:'50vh', maxWidth:'1660px', border:'0px solid white', boxShadow:'0 5px 20px rgba(0, 0, 58, 0.25)', borderColor:'#2c3e40', borderRadius:'8px', margin:'15px', padding:'5px'}}>
+        <div style={{display:'block', flex:1, alignItems:'center', justifyContent:'center',maxHeight:'50vh', maxWidth:'1660px', border:'0px solid white', boxShadow:'0 5px 20px rgba(0, 0, 58, 0.25)', borderColor:'#2c3e40', borderRadius:'8px', margin:'15px', padding:'5px', backgroundColor:'#fff'}}>
 
             <div className="gridDesign">
             {/* style={{display:'grid', gridTemplateColumns:'1fr 1fr'}} */}
@@ -61,11 +61,11 @@ export function Comparador(){
                     <div style={{display:'block', flex:1, alignItems:'center', justifyContent:'center', maxWidth:'660px', border:'1px solid white', boxShadow:'0 5px 20px rgba(255, 255, 255, 0.25)', borderColor:'#2c3e40', borderTopLeftRadius:'8px', borderTopRightRadius:'8px', margin:'15px', marginBottom:'0', padding:'5px'}}>
                         <div>
                             <h5>Produto 1</h5>
-                            <input type="number" className="form-control" name="quantity" placeholder="Quantidade" style={{textAlign:'center'}} onChange={function(p1qtd){
+                            <input type="number" className="form-control" name="quantity" placeholder="Quantidade" style={{textAlign:'center', marginBottom:'5px'}} onChange={function(p1qtd){
                                 p1qtd.preventDefault();
                                 setP1quantity(p1qtd.target.value)
                             }}/>
-                            <input type="currency" className="form-control" name="value" placeholder="R$" style={{textAlign:'center', borderTopLeftRadius:'0px'}} onChange={function(p1vlr){
+                            <input type="currency" className="form-control" name="value" placeholder="R$" style={{textAlign:'center'}} onChange={function(p1vlr){
                                 p1vlr.preventDefault();
                                 setP1value(p1vlr.target.value)
                         }}/>
@@ -82,7 +82,7 @@ export function Comparador(){
                     <div style={{display:'block', flex:1, alignItems:'center', justifyContent:'center', maxWidth:'660px', border:'1px solid white', boxShadow:'0 5px 20px rgba(255, 255, 255, 0.25)', borderColor:'#2c3e40', borderTopLeftRadius:'8px', borderTopRightRadius:'8px', margin:'15px', marginBottom:'0', padding:'5px'}}>
                         <div>
                             <h5>Produto 2</h5>
-                            <input type="number" className="form-control" name="quantity" placeholder="Quantidade" style={{textAlign:'center'}} onChange={function(p2qtd){
+                            <input type="number" className="form-control" name="quantity" placeholder="Quantidade" style={{textAlign:'center', marginBottom:'5px'}} onChange={function(p2qtd){
                                 p2qtd.preventDefault();
                                 setP2quantity(p2qtd.target.value)
                         }}/>
